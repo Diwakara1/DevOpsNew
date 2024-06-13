@@ -1,0 +1,6 @@
+---
+
+-name: install ngix
+ become root: true
+ status: present
+ 
